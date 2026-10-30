@@ -16,7 +16,7 @@
 
 ## Overview
 
-**PROTUBE** is a lightweight Python command-line interface built around [yt-dlp](https://github.com/yt-dlp/yt-dlp). It provides straightforward commands for downloading YouTube content as MP3 audio or video, with optional quality settings, playlist support, and custom output directories.
+**ProTube** is a lightweight Python command-line interface built around [yt-dlp](https://github.com/yt-dlp/yt-dlp). It provides straightforward commands for downloading YouTube content as MP3 audio or video, with optional quality settings, playlist support, and custom output directories.
 
 No complex setup, no graphical interface. Just your terminal.
 
@@ -59,13 +59,13 @@ ffmpeg -version
 Clone the repository and navigate into the project folder:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/PROTUBE.git
-cd PROTUBE
+git clone https://github.com/unicodeces/ProTube.git
+cd ProTube
 ```
 
 Or download the repository as a ZIP and extract it.
 
-> Replace `YOUR_USERNAME` with the GitHub account hosting the project.
+> Replace `unicodeces` with the GitHub account hosting the project.
 
 ## Usage
 
@@ -75,7 +75,7 @@ Or download the repository as a ZIP and extract it.
 python run.py "https://www.youtube.com/watch?v=VIDEO_ID"
 ```
 
-By default, PROTUBE requests MP3 at **320 kbps** and saves files in `musicas/`.
+By default, ProTube requests MP3 at **320 kbps** and saves files in `musicas/`.
 
 ### Choose audio quality
 
@@ -91,7 +91,7 @@ Supported documented values: `320`, `192`, `128` (kbps).
 python run.py -v "https://www.youtube.com/watch?v=VIDEO_ID"
 ```
 
-By default, PROTUBE selects streams up to **1080p** and saves files in `videos/`.
+By default, ProTube selects streams up to **1080p** and saves files in `videos/`.
 
 ### Choose video resolution
 
@@ -192,6 +192,6 @@ Built with [Python](https://www.python.org/) and powered by the open-source [yt-
 
 <div align="center">
 
-**PROTUBE** · Simple commands. Your media. Your terminal.
+**ProTube** · Simple commands. Your media. Your terminal.
 
 </div>
